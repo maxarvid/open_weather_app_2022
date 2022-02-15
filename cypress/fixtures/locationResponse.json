@@ -1,0 +1,119 @@
+{
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+    {
+      "name": "see attribution guide",
+      "url": "https://opencagedata.com/credits"
+    }
+  ],
+  "rate": { "limit": 2500, "remaining": 2480, "reset": 1644969600 },
+  "results": [
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "42\u00b0 25' 15.16584'' N",
+          "lng": "12\u00b0 6' 27.95436'' E"
+        },
+        "MGRS": "33TTH6204700560",
+        "Maidenhead": "JN62bk21wa",
+        "Mercator": { "x": 1347830.246, "y": 5195403.198 },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?node=675608662#map=17/42.42088/12.10777",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/42.42088/12.10777&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=42.42088&mlon=12.10777#map=17/42.42088/12.10777"
+        },
+        "UN_M49": {
+          "regions": {
+            "EUROPE": "150",
+            "IT": "380",
+            "SOUTHERN_EUROPE": "039",
+            "WORLD": "001"
+          },
+          "statistical_groupings": ["MEDC"]
+        },
+        "callingcode": 39,
+        "currency": {
+          "alternate_symbols": [],
+          "decimal_mark": ",",
+          "html_entity": "&#x20AC;",
+          "iso_code": "EUR",
+          "iso_numeric": "978",
+          "name": "Euro",
+          "smallest_denomination": 1,
+          "subunit": "Cent",
+          "subunit_to_unit": 100,
+          "symbol": "\u20ac",
+          "symbol_first": 0,
+          "thousands_separator": "."
+        },
+        "flag": "\ud83c\uddee\ud83c\uddf9",
+        "geohash": "sr897d2xe3h42e0kk5r2",
+        "qibla": 123.47,
+        "roadinfo": {
+          "drive_on": "right",
+          "road": "Piazza Giuseppe Verdi",
+          "speed_in": "km/h"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1644905340,
+            "astronomical": 1644899700,
+            "civil": 1644903660,
+            "nautical": 1644901680
+          },
+          "set": {
+            "apparent": 1644943380,
+            "astronomical": 1644949020,
+            "civil": 1644945060,
+            "nautical": 1644947040
+          }
+        },
+        "timezone": {
+          "name": "Europe/Rome",
+          "now_in_dst": 0,
+          "offset_sec": 3600,
+          "offset_string": "+0100",
+          "short_name": "CET"
+        },
+        "what3words": { "words": "gets.bespoke.behave" }
+      },
+      "bounds": {
+        "northeast": { "lat": 42.4209294, "lng": 12.1078151 },
+        "southwest": { "lat": 42.4208294, "lng": 12.1077151 }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "IT",
+        "ISO_3166-1_alpha-3": "ITA",
+        "_category": "education",
+        "_type": "library",
+        "city": "Viterbo",
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "it",
+        "county": "Viterbo",
+        "county_code": "VT",
+        "house_number": "3",
+        "library": "Biblioteca Comunale degli Ardenti",
+        "political_union": "European Union",
+        "postcode": "01100",
+        "road": "Piazza Giuseppe Verdi",
+        "state": "Lazio",
+        "state_code": "LAZ"
+      },
+      "confidence": 9,
+      "formatted": "Biblioteca Comunale degli Ardenti, Piazza Giuseppe Verdi, 3, 01100 Viterbo VT, Italy",
+      "geometry": { "lat": 42.4208794, "lng": 12.1077651 }
+    }
+  ],
+  "status": { "code": 200, "message": "OK" },
+  "stay_informed": {
+    "blog": "https://blog.opencagedata.com",
+    "twitter": "https://twitter.com/OpenCage"
+  },
+  "thanks": "For using an OpenCage API",
+  "timestamp": {
+    "created_http": "Tue, 15 Feb 2022 14:02:31 GMT",
+    "created_unix": 1644933751
+  },
+  "total_results": 1
+}

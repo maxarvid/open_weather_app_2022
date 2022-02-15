@@ -4,7 +4,7 @@ import axios from "axios";
 const App = () => {
   const [temp, setTemp] = useState([]);
   const [city, setCity] = useState('');
-
+ 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(async (position) => {
       let { latitude, longitude } = position.coords;

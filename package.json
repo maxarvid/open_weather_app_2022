@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "start-server-and-test": "^1.14.0"
   }
 }

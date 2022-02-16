@@ -26,7 +26,7 @@ const App = () => {
     <div data-cy="weather-display">
       <h4 data-cy="temp">Temperature: {temp}°C</h4>
       <h4 data-cy="city">City: {city} </h4>
-      <p data-cy="coords">You are at latitude {coords.latitude} and longitude {coords.longitude}</p>
+      <p data-cy="coords" data-testid="coords">You are at latitude {coords.latitude} and longitude {coords.longitude}</p>
     </div>
   );
 };

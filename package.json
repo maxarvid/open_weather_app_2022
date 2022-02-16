@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test specs",
     "eject": "react-scripts eject",
     "start:silent": "BROWSER=none react-scripts start",
     "cy:open": "cypress open",

@@ -29,4 +29,11 @@ describe("Location based weather", () => {
       cy.get("[data-cy=city]").should("contain", "Viterbo");
     });
   });
+
+  it("is expected to display users coordinates", () => {
+    cy.get("[data-cy=coords]").should(
+      "contain.text",
+      "You are at latitude 42.420677 and longitude 12.107669"
+    );
+  });
 });
